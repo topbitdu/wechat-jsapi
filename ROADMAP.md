@@ -2,4 +2,4 @@
 
 ## v0.1
 1. Signature class
-2. Ticket class
+2. Ticket wrapper class
