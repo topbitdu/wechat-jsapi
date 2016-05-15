@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     wechat-jsapi (0.1)
-      wechat-core (~> 0.2)
+      wechat-core (~> 0.3)
 
 GEM
   remote: https://rubygems.org/
