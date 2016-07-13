@@ -6,6 +6,7 @@ class Wechat::JSAPI::Signature
     raise ArgumentError.new('The link parameter is required.')      if link.blank?
     raise ArgumentError.new('The ticket parameter is required.')    if ticket.blank?
     raise ArgumentError.new('The timestamp parameter is required.') if timestamp.blank?
+    raise ArgumentError.new('The nonce parameter is required.')     if nonce.blank?
     Digest::SHA1.hexdigest [ "url=#{link}", "jsapi_ticket=#{ticket}", "timestamp=#{timestamp}", "noncestr=#{nonce}" ].sort.join('&')
   end
 
