@@ -7,7 +7,8 @@ class Wechat::JSAPI::Signature
   def self.create(link, ticket, timestamp, nonce)
 
     assert_present! :link, link
-    raise ArgumentError.new('The ticket parameter is required.')    if ticket.blank?
+    assert_present! :ticket, ticket
+    #raise ArgumentError.new('The ticket parameter is required.')    if ticket.blank?
     raise ArgumentError.new('The timestamp parameter is required.') if timestamp.blank?
     raise ArgumentError.new('The nonce parameter is required.')     if nonce.blank?
 
