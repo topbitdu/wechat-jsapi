@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in wechat-sns.gemspec
+# Specify your gem's dependencies in wechat-jsapi.gemspec
 gemspec
