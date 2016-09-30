@@ -2,6 +2,7 @@
 
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](http://opensource.org/licenses/MIT)
 [![Gem Version](https://badge.fury.io/rb/wechat-jsapi.svg)](https://badge.fury.io/rb/wechat-jsapi)
+[![Dependency Status](https://gemnasium.com/badges/github.com/topbitdu/wechat-jsapi.svg)](https://gemnasium.com/github.com/topbitdu/wechat-jsapi)
 
 Wechat JS API library is a low level library for Wechat JS APIs. 微信JS API库是一个调用[微信JS API](http://mp.weixin.qq.com/wiki/11/74ad127cc054f6b80759c40f77ec03db.html)的低层库。
 
