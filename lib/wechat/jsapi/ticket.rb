@@ -16,8 +16,8 @@ class Wechat::JSAPI::Ticket
   # }
   def self.create(access_token)
 
-    raise ArgumentError.new('The access_token argument is required.') if access_token.blank?
-    #assert_present! :access_token, access_token
+    #raise ArgumentError.new('The access_token argument is required.') if access_token.blank?
+    assert_present! :access_token, access_token
 
     message = JSONClient.new.get "https://api.weixin.qq.com/cgi-bin/ticket/getticket?access_token=#{access_token}&type=jsapi"
     message.body
