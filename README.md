@@ -9,6 +9,7 @@ Wechat JS API library is a low level library for Wechat JS APIs. 微信JS API库
 
 
 ## Recent Update
+
 Check out the [Road Map](ROADMAP.md) to find out what's the next.
 Check out the [Change Log](CHANGELOG.md) to find out what's new.
 
