@@ -9,9 +9,10 @@ class Wechat::JSAPI::Signature
     assert_present! :link, link
     assert_present! :ticket, ticket
     assert_present! :timestamp, timestamp
+    assert_present! :nonce, nonce
     #raise ArgumentError.new('The ticket parameter is required.')    if ticket.blank?
     #raise ArgumentError.new('The timestamp parameter is required.') if timestamp.blank?
-    raise ArgumentError.new('The nonce parameter is required.')     if nonce.blank?
+    #raise ArgumentError.new('The nonce parameter is required.')     if nonce.blank?
 
     Digest::SHA1.hexdigest [ "url=#{link}", "jsapi_ticket=#{ticket}", "timestamp=#{timestamp}", "noncestr=#{nonce}" ].sort.join('&')
 
