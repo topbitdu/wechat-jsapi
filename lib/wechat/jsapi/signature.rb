@@ -7,7 +7,7 @@ class Wechat::JSAPI::Signature
   def self.create(link, ticket, timestamp, nonce)
 
     assert_present! :link,      link
-    assert_present! :ticket, ticket
+    assert_present! :ticket,    ticket
     assert_present! :timestamp, timestamp
     assert_present! :nonce, nonce
 
