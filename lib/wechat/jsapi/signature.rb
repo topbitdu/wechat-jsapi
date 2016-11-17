@@ -9,7 +9,7 @@ class Wechat::JSAPI::Signature
     assert_present! :link,      link
     assert_present! :ticket,    ticket
     assert_present! :timestamp, timestamp
-    assert_present! :nonce, nonce
+    assert_present! :nonce,     nonce
 
     Digest::SHA1.hexdigest [ "url=#{link}", "jsapi_ticket=#{ticket}", "timestamp=#{timestamp}", "noncestr=#{nonce}" ].sort.join('&')
 
