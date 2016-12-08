@@ -18,7 +18,7 @@ class Wechat::JSAPI::Ticket
 
     assert_present! :access_token, access_token
 
-    message = JSONClient.new.get "https://api.weixin.qq.com/cgi-bin/ticket/getticket?access_token=#{access_token}&type=jsapi"
+    message = get_json "https://api.weixin.qq.com/cgi-bin/ticket/getticket?access_token=#{access_token}&type=jsapi"
     message.body
 
   end
