@@ -1,5 +1,3 @@
-require 'jsonclient'
-
 class Wechat::JSAPI::Ticket
 
   extend Wechat::Core::Common
