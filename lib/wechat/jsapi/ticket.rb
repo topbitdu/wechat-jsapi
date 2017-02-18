@@ -1,3 +1,7 @@
+##
+# Ticket 类提供根据访问令牌 access_token 获取 JSAPI Ticket 的方法。如：
+# jsapi_ticket = Wechat::JSAPI::Ticket.create access_token
+
 class Wechat::JSAPI::Ticket
 
   extend Wechat::Core::Common
