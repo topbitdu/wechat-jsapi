@@ -1,3 +1,11 @@
+##
+# Singature 类提供生成JS-SDK权限验证的签名的方法。如：
+# link      = 'https://product-wechat.company.com/home'
+# ticket    = // your ticket
+# timestamp = Time.now.to_i.to_s
+# nonce     = SecureRandom.hex 8
+# singature = Wechat::JSAPI::Signature.create link, ticket, timestamp, nonce
+
 class Wechat::JSAPI::Signature
 
   extend Wechat::Core::Common
