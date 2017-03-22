@@ -8,3 +8,6 @@
 1. Improved the Ruby Gem Specification to depend on [wechat-core](https://github.com/topbitdu/wechat-core) v0.4
 2. Improved the Signature class for the argument validation
 3. Improve the Ticket wrapper class for the argument validation & HTTP request
+
+## v0.1.2
+1. Improve the Ticket wrapper class for the HTTP request
