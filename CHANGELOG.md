@@ -10,4 +10,4 @@
 3. Improved the Ticket wrapper class for the argument validation & HTTP request
 
 ## v0.1.2
-1. Improve the Ticket wrapper class for the HTTP request
+1. Improved the Ticket wrapper class for the HTTP request
