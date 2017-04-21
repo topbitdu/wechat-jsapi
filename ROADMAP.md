@@ -11,3 +11,6 @@
 
 ## v0.1.2
 1. Improve the Ticket wrapper class for the HTTP request
+
+## v0.1.3
+1. Signature spec
